@@ -1,0 +1,22 @@
+html,body{
+  	width:100%;
+	height: 100%;
+	background:#588F7A;
+}
+.pagination{
+	padding-bottom:30px;
+}
+
+.op-linkbutton{
+	  position: relative;
+	  display: inline-block;
+	  top: 0px;
+	  padding: 0 3px;
+	  height: 24px;
+	  line-height: 24px;
+	  cursor: pointer;
+	  -moz-border-radius: 5px 5px 5px 5px;
+	  -webkit-border-radius: 5px 5px 5px 5px;
+	  border-radius: 5px 5px 5px 5px;
+	  text-decoration: none;	
+}

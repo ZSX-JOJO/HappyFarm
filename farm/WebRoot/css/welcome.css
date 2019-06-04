@@ -1,0 +1,39 @@
+body{
+	width: 100%;
+	height: 650px;
+	background: #588F7A;
+}
+
+.fly-box{
+	width: 400px;
+	height: 500px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+	transition: 1s;
+}
+
+.fly-box img{
+	max-width:400px;
+}
+
+.fly-title{
+	width: 30%;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+
+.fly-title span{
+	max-width: 200px;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 40px;
+	color: #FCFCFC;
+	text-shadow: 10px 10px 10px #1E1213;
+} 
+

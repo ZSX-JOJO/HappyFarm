@@ -1,0 +1,82 @@
+html,body{
+	width: 100%;
+	height: 100%;
+}
+.buy-seed{
+	margin: 0 auto;
+	margin-top:30px;
+}
+.tableBox{
+	margin: 0 auto;
+	width:100%;
+	height:100%;
+	border:1px solid #0081C2;
+}
+
+.cardTemplate{
+	cursor:pointer;
+	width: 25%;
+	height:100%;
+	float:left;
+	background: url(../images/biankuang.png);
+	background-size:100% 100%;
+}
+.seedTip{
+	width: 70%;
+	height:30%;
+	margin: 0px auto;
+	margin-top: 20%;
+	z-index:-1
+}
+.seedPic{
+	max-width: 60%;
+	margin: 0 auto;
+}
+.seedPic img{
+	width:90%;
+	z-index:-1
+}
+.bagArea{
+	width:665px;
+	height:180px;
+	margin:20px auto;
+}
+.seedArea{
+	width:600px;
+	height:200px;
+	margin:10px auto;
+	background: gainsboro;
+}
+.showArea{
+	width:100%;
+	height:100%;
+	text-align:center;
+	line-height:200px;
+	font-weight:bold;
+}
+.hideArea{
+	width:70%;
+	height:100%;
+	display:none;
+	margin:0 auto;
+}
+.seedAreaRight{
+	float: left;
+	margin-left: 20px;
+}
+.seedAreaRight div:nth-child(1){
+	color:red;
+	width:50px;
+	font-weight:bold;
+	margin-top:5px;
+}
+.seedAreaRight div:nth-child(2){
+	width:50px;
+	margin-top:5px;
+}
+.seedAreaRight div:nth-child(3){
+	width:265px;
+	height:90px;
+	margin-top:5px;
+	line-height:20px;
+}

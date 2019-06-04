@@ -1,0 +1,68 @@
+.repositoryConatian{
+	width:660px;
+	height:160px;
+	border-radius: 10px;
+	border:2px solid #000;
+	background:#F6E8AE;
+}
+div.buttonleft{
+	float:left;
+	width:30px;
+	height:100%;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	text-align:center;
+	background:#F8F8F8;
+}
+div.buttonright{
+	float:left;
+	width:30px;
+	height:100%;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	text-align:center;
+	background:#F8F8F8;
+}
+div.buttonleft img,div.buttonright img{
+	max-width:20px;
+	margin-top:70px;
+	cursor:pointer;
+}
+.centerbox{
+	float:left;
+	width:600px;
+	height:100%;
+	overflow: hidden;
+}
+#purchasedSeeds{
+	height:100%;
+	width:600px;
+}
+.purchasedSeedsOfInfo{
+	float:left;
+	width:100px;
+	height:160px;
+	background:url(../images/blackcard.png);
+	background-size:100% 100%;
+}
+.numberOfSeed{
+	height:30px;
+	width:30px;
+	text-align: center;
+	line-height:30px;
+	font-size:13px;
+	border-radius:50%;
+	margin:0 auto;
+	color:white;
+	background-color: gray;
+}
+.imgDiv{
+	height:70%;
+	width:100%;
+	text-align:center;
+}
+.imgDiv img{
+	max-height:90px;
+	max-width:100px;
+	margin-top:20px;
+}

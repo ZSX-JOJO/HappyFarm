@@ -1,0 +1,64 @@
+html,body{
+	width: 100%;
+	height: 100%;
+	background: #588F7A;
+}
+.menu-left{
+	width: 30%;
+	height: 100%;
+	float: left;
+}
+.menu-left img{
+	max-width: 50px;
+	margin-left: 20px;
+	margin-top: 5px;
+	float: left;
+}
+.menu-left div.userinf{
+	float: left;
+	height: 100%;
+	margin-left: 20px;
+}
+.menu-left div.usermoney{
+	color: white;
+	margin-top: 10px;
+}
+.menu-left div.username{
+	color: white;
+	margin-top:5px;
+}
+.menu-right{
+	width: 70%;
+	height: 100%;
+	float: left;
+}
+#mainNav .hc-navbox {
+	height: 30px;
+	overflow: hidden;
+	margin: 15px 10px auto;
+}
+#mainNav .hc-navbox li {
+	transition: .5s;
+	top: 0;
+	padding: 0 5px;
+}
+#mainNav .hc-navbox img{
+	max-width: 30px;
+}
+#mainNav .hc-navbox li:hover {
+	transition: .5s;
+	top: -30px;
+}
+#mainNav .hc-navbox li>.nav-off,
+#mainNav .hc-navbox li:hover>.nav-off {
+	background: #fccf12!important;
+	color: #333!important;
+	font-weight: bold;
+}
+#mainNav .nav li a:nth-child(n) {
+	text-align: center;
+	line-height: 30px;
+	display: block;
+	padding: 0 15px;
+	color: white;
+}

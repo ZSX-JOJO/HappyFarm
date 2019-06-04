@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+.solidland{
+	width:100px;
+	height: 80px;
+	position:absolute;
+}
+
+.solidland img.landstyle{
+	position:absolute;
+	width:160px;
+	height:86px;
+	left: -28px;
+	display:block;
+	z-index:0;
+}
+.solidland img.cropstyle{
+	position:absolute;
+	width: 69px;
+    height: 76px;
+    top: -11px;
+    left: 13px;
+   	display:none;
+	z-index:1;
+}
+.solidland img.wormstyle{
+	position:absolute;
+	width: 64px;
+    top: 9px;
+    left: 32px;
+   	display:none;
+	z-index:2;
+}
+.bageArea{
+	width:665px;
+	height:180px;
+	
+}
+#farm{
+	position: relative;
+	width: 885px;
+	height: 450px;
+	left: 560px;
+	top: 350px;
+}
+#farmbox{
+	position: absolute;
+	left: 485px;
+	top: 20px;
+	padding:5px;
+	border:2px solid gray;
+	background:white;
+}
